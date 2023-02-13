@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    
+    height: 100px;
+    background-color: #b2d6ff;
+}
+.sidebar{
+    clear: right;
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: #F09A9D;
+}
+.content{
+    padding: 20px;
+    float: left;
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E ;
+}
+.footer{
+    
+    overflow: hidden;
+    background-color: #D6E9FE;
+}
+.page{
+    width: 900px;
+    margin: 0 auto;
+    border:5px solid hotpink; /* messo per capire dove sta il box fisso
+    in quanto nell altro esercizio avevo invertito i ruoli dei box 
+    questo fa si che non da spessore al box e quindi quando
+    allarghi o stringi il cambia la disposizione */
+}
+.container{
+    overflow: hidden;
+    background-color:#EAEDF0 ;
+}
+.column{
+  
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px; /* c e qualcosa da cambiare per farci entrare il commento */
+    background-color: #b2d6ff;
+    border:3px solid yellow;
+}
+
+.article-image{
+    float: left;
+    width: 300px ;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.avatar{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #d6e9fe;
+    
+}
+.username{
+    
+    margin-top: 30px;
+    
+}
+.comment{
+    margin: 10px;
+    overflow: hidden;
+  
+   
+   
+}
